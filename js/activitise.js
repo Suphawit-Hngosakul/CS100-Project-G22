@@ -1,3 +1,8 @@
+const config = {
+    backendUrl: "http://localhost:8000/", // Default backend URL
+};
+const port = 8000;
+
 // Function to validate Firstname and Lastname
 function validateName() {
     const fullnameInput = document.getElementById("fullname")
